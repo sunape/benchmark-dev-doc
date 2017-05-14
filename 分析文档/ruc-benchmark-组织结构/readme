@@ -1,0 +1,7 @@
+bin-- 放置startup.sh/startup.bat 进行程序启动
+conf-- 放置各个配置文件  --conf下会有*.xml.help 用来指导对应的配置文件如何配置
+log-- 放置生成的日志  -- 20170510(根据日期分包)
+jar-- 程序运行的jar包
+data-- 数据生成器所生成的数据 *.txt
+
+运行步骤，首先在conf目录下进行配置文件的配置，然后执行bin目录下的startup.sh/startup.bat 进行程序启动，进行数据生成或者系统评测 
